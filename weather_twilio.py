@@ -1,4 +1,9 @@
 #!/usr/bin/python
+
+# Author Kartikeswar Koppula <kartik [at] koppula [dot] in>
+# Description: This file captures Temperature, Humidity and Pressure
+#               from sensehat sensor every 60 second and update the file
+
 from sense_hat import SenseHat
 import time
 import sys
